@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ServiceHeader = () => {
   return (
-     <div className=' sticky top-0 z-[1000]'>
+     <div className=' sticky top-0 z-[1000] backdrop-blur-2xl'>
          <div className="relative py-3 ">
       {/* Background layer with opacity */}
       <div className="absolute inset-0 bg-gradient-to-r from-purple-900 to-violet-900 opacity-[0.5] z-0" />
