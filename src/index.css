@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body{
+  background: #1E1E1E;
+}
+
+.stroke-text {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white; /* fallback for non-webkit browsers */
+  font-weight: 600; /* match your example */
+}
