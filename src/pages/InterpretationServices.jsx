@@ -1,17 +1,17 @@
 import React from 'react'
-import Translation from '../components/ServicePages/Translation/Translation'
-import Trusted from '../components/ServicePages/Translation/Trusted'
-import Carts from '../components/ServicePages/Translation/Carts'
-import Translator from '../components/ServicePages/Translation/Translator'
+import LanguagePair from '../components/ServicePages/Interpretation/LanguagePair'
+import Expertise from '../components/ServicePages/Interpretation/Experties'
+import Interpretation from '../components/ServicePages/Interpretation/Interpretation'
+import Carts from '../components/ServicePages/Interpretation/Carts'
 import Frequently from '../components/ServicePages/Translation/Frequently'
 
 const InterpretationServices = () => {
   return (
     <div>
-        <Translation />
-        <Trusted />
+        <LanguagePair />
+        <Expertise />
         <Carts />
-        <Translator />
+        <Interpretation />
         <Frequently />
     </div>
   )

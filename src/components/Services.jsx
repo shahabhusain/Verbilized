@@ -12,9 +12,10 @@ const Services = () => {
         <p className=' text-[14px] font-[500] text-white'>From IT infrastructure and automation to business strategy and digital growth — we provide end-to-end solutions designed to optimize your operations, elevate your brand, and future-proof your business.</p>
 <ul className='flex flex-col gap-4'>
       <Link className='text-[40px] stroke-text' to="services">Translation Services</Link>
-      <Link className='text-[40px] stroke-text' to="/services/languages">Interpretation Services</Link>
-      <Link className='text-[40px] stroke-text' to="/services/localization">Localization Services</Link>
+      <Link className='text-[40px] stroke-text' to="/services/interpretation">Interpretation Services</Link>
+      <Link className='text-[40px] stroke-text' to="/services/language">Language Pairs Services</Link>
       <Link className='text-[40px] stroke-text' to="/services/voiceover">Voiceover Services</Link>
+       <Link className='text-[40px] stroke-text' to="/services/localize">Localization Services</Link>
     </ul>
            </div>
        </div>

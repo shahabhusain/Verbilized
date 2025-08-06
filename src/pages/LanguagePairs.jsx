@@ -1,17 +1,17 @@
 import React from 'react'
-import LanguagePair from '../components/ServicePages/LanguagePairs/LanguagePair'
-import Expertise from '../components/ServicePages/LanguagePairs/Experties'
-import Interpretation from '../components/ServicePages/LanguagePairs/Interpretation'
-import Carts from '../components/ServicePages/LanguagePairs/Carts'
+import Hero from '../components/ServicePages/LanguagePairs/Hero'
+import Connects from '../components/ServicePages/LanguagePairs/Connects'
+import Box from '../components/ServicePages/LanguagePairs/Box'
+import YouGet from '../components/ServicePages/LanguagePairs/YouGet'
 import Frequently from '../components/ServicePages/Translation/Frequently'
 
 const LanguagePairs = () => {
   return (
     <div>
-        <LanguagePair />
-        <Expertise />
-        <Carts />
-        <Interpretation />
+        <Hero />
+        <Connects />
+        <Box />
+        <YouGet />
         <Frequently />
     </div>
   )

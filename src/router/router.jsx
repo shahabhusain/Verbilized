@@ -7,6 +7,8 @@ import VoiceoverServices from '../pages/VoiceoverServices'
 import Home from '../pages/Home'
 import Layout from '../components/Layout/Layout'
 import Layouts from '../components/Layout/Layouts'
+import TranslationalServices from '../pages/TranslationServices'
+import GetAQuote from '../pages/GetAQuote'
 
 export const router = createBrowserRouter (
   createRoutesFromElements(
@@ -15,10 +17,12 @@ export const router = createBrowserRouter (
       <Route index element={<Home />} />
     </Route>
     <Route path='/services' element={<Layouts />}>
-        <Route index element={<InterpretationServices />} />
-    <Route path='/services/languages' element={<LanguagePairs />} />
-    <Route path='/services/localization' element={<LocalizationServices />} />
+        <Route index element={<TranslationalServices />} />
+    <Route path='/services/interpretation' element={<InterpretationServices />} />
+    <Route path='/services/language' element={<LanguagePairs />} />
     <Route path='/services/voiceover' element={<VoiceoverServices />} />
+    <Route path='/services/localize' element={<LocalizationServices />} />
+     <Route path='/services/getaquote' element={<GetAQuote />} />
     </Route>
     </>
   )

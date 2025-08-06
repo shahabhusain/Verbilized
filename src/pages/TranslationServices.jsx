@@ -1,9 +1,20 @@
 import React from 'react'
+import Translation from '../components/ServicePages/Translation/Translation'
+import Trusted from '../components/ServicePages/Translation/Trusted'
+import Carts from '../components/ServicePages/Translation/Carts'
+import Translator from '../components/ServicePages/Translation/Translator'
+import Frequently from '../components/ServicePages/Translation/Frequently'
 
-const TranslationServices = () => {
+const TranslationalServices = () => {
   return (
-    <div>TranslationServices</div>
+    <div>
+        <Translation />
+        <Trusted />
+        <Carts />
+        <Translator />
+        <Frequently />
+    </div>
   )
 }
 
-export default TranslationServices
+export default TranslationalServices
