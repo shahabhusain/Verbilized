@@ -11,9 +11,9 @@ const ServiceHeader = () => {
       {/* Foreground content */}
       <div className="relative z-10 flex items-center justify-between w-[80%] mx-auto">
         <Link to='/'> <button className=" cursor-pointer text-[24px] font-bold text-white">Sundus</button></Link>
-        <button className="bg-[#873AA7] py-2 px-5 rounded-full text-white text-[14px] font-[600]">
+        <Link to="/services/getaquote" className="bg-[#873AA7] cursor-pointer py-2 px-5 rounded-full text-white text-[14px] font-[600]">
           Get a Quote
-        </button>
+        </Link>
       </div>
     </div>
      </div>

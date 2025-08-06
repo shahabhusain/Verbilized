@@ -7,7 +7,6 @@ const Hero = () => {
       <div className=' flex flex-col gap-3 w-1/2'>
         <h1 className=' text-[54px] font-[600] text-white'>Quote</h1>
         <p className=' text-[14px] font-[500] text-white'>Get a personalized quote based on your project details  quick, easy, and commitment-free.</p>
-        <button className=' mt-5 text-white font-medium border-[1px] border-[#fff] rounded-full py-2 px-5 w-fit'>Get a Quote</button>
       </div>
           <div className=' w-[40%] relative'>
              <div className=' w-[100%]  h-[500px] bg-[#56035d48] blur-2xl rounded-full'>
