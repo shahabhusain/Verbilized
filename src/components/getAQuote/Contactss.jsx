@@ -3,9 +3,9 @@ import { SlLocationPin } from "react-icons/sl";
 import { IoIosInformationCircleOutline } from "react-icons/io";
 const Contactss = () => {
   return (
-    <div className=' w-[80%] mx-auto flex items-start gap-12 mt-32'>
+    <div className=' md:w-[80%] px-4 md:px-0 mx-auto flex flex-col md:flex-row items-start gap-12 md:mt-32 mt-20'>
 
-        <div className=' flex flex-col gap-5 w-1/2'>
+        <div className=' flex flex-col gap-5 md:w-1/2'>
             <p className=' text-white text-[14px] font-medium'>To quote or for questions: please fill out the quote form below or email us the document(s) with details or questions to contact@etranslationservices.com (Approx. response time 15 minutes).</p>
             <p className=' text-white text-[14px] font-medium'>For applicants, please go to our Careers page and use the appropriate application forms posted for the position you’re applying for. </p>
                 <div className=' relative'>
@@ -42,7 +42,7 @@ const Contactss = () => {
             </form>
                 </div>
         </div>
-         <div className='w-1/2 flex flex-col gap-4'>
+         <div className='md:w-1/2 flex flex-col gap-4'>
            <p className=' text-[#873AA7] text-[14px] font-[400]'>Let’s Have A Talk About Something Interesting!</p>
            <h1 className=' text-[24px] font-semibold text-white'>If you have a project you would like to discuss, We'd love to hear from you.</h1>
            <p className=' text-[14px] text-white font-normal'>Please feel free to contact us via phone, email, or this form! We respect your privacy and will never share this information with a third party.

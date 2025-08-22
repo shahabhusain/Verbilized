@@ -10,3 +10,19 @@ body{
   text-stroke: 1px white; /* fallback for non-webkit browsers */
   font-weight: 600; /* match your example */
 }
+
+
+.scroll-container {
+  overflow: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari, Edge */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.scroll-container {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}

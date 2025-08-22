@@ -4,13 +4,13 @@ import icon1 from '../assets/icon1.png'
 import icon2 from '../assets/icon2.png'
 const Introduction = () => {
   return (
-    <div id="Introduction" className=' flex  justify-between w-[80%] mx-auto mt-32'>
-        <div className='w-[40%] relative'>
-            <div className=' w-full  h-full bg-[#55035D] blur-2xl rounded-full'>
+    <div id="Introduction" className=' flex  md:flex-row flex-col justify-between md:w-[80%] px-4 mx-auto m:mt-32 mt-12'>
+        <div className='md:w-[40%] md:relative'>
+            <div className=' w-full md:block hidden  h-full bg-[#55035D] blur-2xl rounded-full'>
             </div>
-            <img className=' absolute top-0' src={intro} alt="" />
+            <img className=' md:absolute top-0' src={intro} alt="" />
         </div>
-        <div className=' w-1/2 flex flex-col gap-4'>
+        <div className=' md:w-1/2 flex flex-col gap-4 md:mt-0 mt-[12px]'>
             <h1 className=' text-[32px] font-[600] text-white'>Let Me Introduce Myself</h1>
             <p className=' text-[16px] font-[500] text-white'>Hi, I’m Sundus—a professional voiceover artist, certified interpreter, and experienced translator with a passion for clear, human communication. With over four years in the voiceover industry and two years as a full-time interpreter, I’ve worked with clients across healthcare, education, nonprofits, and media—bringing warmth, precision, and professionalism to every project.</p>
             <h1 className=' text-[20px] font-[600] text-white flex items-center gap-2'><img src={icon1} alt="" />My native language</h1>

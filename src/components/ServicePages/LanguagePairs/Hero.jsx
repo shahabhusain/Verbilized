@@ -3,7 +3,7 @@ import circle from '../../../assets/circle.png'
 import { Link } from 'react-router-dom'
 const Hero = () => {
   return (
-    <div className='bg-[#030406] py-24'>
+    <div className='bg-[#030406] py-6'>
         <div className=' flex items-center w-[80%] mx-auto justify-between'>
       <div className=' flex flex-col gap-3 w-1/2'>
         <h1 className=' text-[54px] font-[600] text-white'>Language Pairs Services</h1>

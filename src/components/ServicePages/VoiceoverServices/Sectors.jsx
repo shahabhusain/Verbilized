@@ -5,52 +5,50 @@ import img3 from "../../../assets/img11.png"
 import img4 from "../../../assets/img12.png"
 import img5 from "../../../assets/img13.png"
 import img6 from "../../../assets/imgg.png"
+
 const Sectors = () => {
-    const data = [
-        {
-            title:"Advertising & Commercials",
-            img:img1
-        },
-           {
-            title:"E-learning & Training",
-            img:img2
-        },
-           {
-            title:"IVR & Phone Systems",
-            img:img3
-        },
-           {
-            title:" Animation & Dubbing",
-            img:img4
-        },
-           {
-            title:" Audiobooks & Storytelling",
-            img:img5
-        },
-           {
-            title:"·Corporate & Explainer Videos",
-            img:img6
-        },
-    ]
+  const data = [
+    { title: "Advertising & Commercials", img: img1 },
+    { title: "E-learning & Training", img: img2 },
+    { title: "IVR & Phone Systems", img: img3 },
+    { title: "Animation & Dubbing", img: img4 },
+    { title: "Audiobooks & Storytelling", img: img5 },
+    { title: "Corporate & Explainer Videos", img: img6 },
+  ]
+
   return (
-      <div className=' mt-32'>
-        <h1 className=' text-white text-center text-[32px] font-[600]'>We work with clients across a variety of sectors</h1>
-        <p className=' text-[#969696] text-center text-[14px] font-[500]'>Trusted by startups, enterprises, and organizations who value smart tech and reliable support that we work with them</p>
-         <div className=' bg-[#ffffff0a] relative py-12 mt-12'>
-           <div className=' w-[100%]  h-[200px] bg-[#56035d43] blur-2xl rounded-full'>
+    <div className="mt-32 px-4 md:px-12">
+      {/* Heading */}
+      <h1 className="text-white text-center text-2xl md:text-4xl font-semibold">
+        We work with clients across a variety of sectors
+      </h1>
+      <p className="text-[#969696] text-center text-sm md:text-base font-medium mt-2">
+        Trusted by startups, enterprises, and organizations who value smart tech
+        and reliable support that we work with them
+      </p>
+
+      {/* Background glow */}
+      <div className="bg-[#ffffff0a] relative py-12 md:px-12 px-4 mt-12 rounded-2xl">
+        <div className="absolute inset-0 flex justify-center items-center">
+          <div className="w-[90%] md:w-[70%] h-[200px] bg-[#56035d43] blur-3xl rounded-full"></div>
+        </div>
+
+        {/* Cards */}
+        <div className="relative grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 justify-items-center">
+          {data.map((item, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center gap-3 p-4 bg-[#ffffff0a] rounded-xl hover:scale-105 transition-transform"
+            >
+              <img className="w-12 md:w-16" src={item.img} alt={item.title} />
+              <h1 className="text-center text-sm md:text-base font-semibold text-white">
+                {item.title}
+              </h1>
             </div>
-         <div className=' absolute top-20 justify-center w-full flex items-center gap-12 '>
-        {
-            data.map((item)=>(
-                <div className=' flex flex-col items-center gap-2'>
-                    <img className=' w-[60px]' src={item.img} alt="" />
-                    <h1 className=' text-center text-[16px] font-[600] text-white'>{item.title}</h1>
-                </div>
-            ))
-        }
-    </div>
-     </div>
+          ))}
+        </div>
       </div>
+    </div>
   )
 }
 

@@ -26,30 +26,30 @@ const Testimonials = () => {
       text: "They helped plan the perfect family vacation. They listened to our needs, found great accommodations, and suggested fun activities for all ages. We'll definitely book with them again!",
       avatar: per
     },
-    {
-      id: 4,
-      name: "Mark Thompson",
-      title: "Creative Director",
-      company: "PixelWorks Studio",
-      text: "I've used other travel agencies before, but this one truly stands out. They were incredibly responsive and offered tailored recommendations for our trip. A stress-free experience from start to finish!",
-      avatar: per
-    },
-    {
-      id: 5,
-      name: "Brian Clark",
-      title: "Team Lead",
-      company: "Mendco Designs",
-      text: "From the moment we booked, we felt like VIPs. The luxury tour they arranged was phenomenal and every detail was handled impeccably. We couldn't have asked for a better experience!",
-      avatar: per
-    },
-    {
-      id: 6,
-      name: "Daniel Carter",
-      title: "Founder",
-      company: "Fusion Studios",
-      text: "I've travelled all over the world but my recent trip with them was by far the best planned. Every transfer, excursion and hotel was top-notch. Their attention to detail is unmatched!",
-      avatar: per
-    }
+    // {
+    //   id: 4,
+    //   name: "Mark Thompson",
+    //   title: "Creative Director",
+    //   company: "PixelWorks Studio",
+    //   text: "I've used other travel agencies before, but this one truly stands out. They were incredibly responsive and offered tailored recommendations for our trip. A stress-free experience from start to finish!",
+    //   avatar: per
+    // },
+    // {
+    //   id: 5,
+    //   name: "Brian Clark",
+    //   title: "Team Lead",
+    //   company: "Mendco Designs",
+    //   text: "From the moment we booked, we felt like VIPs. The luxury tour they arranged was phenomenal and every detail was handled impeccably. We couldn't have asked for a better experience!",
+    //   avatar: per
+    // },
+    // {
+    //   id: 6,
+    //   name: "Daniel Carter",
+    //   title: "Founder",
+    //   company: "Fusion Studios",
+    //   text: "I've travelled all over the world but my recent trip with them was by far the best planned. Every transfer, excursion and hotel was top-notch. Their attention to detail is unmatched!",
+    //   avatar: per
+    // }
   ];
 
   const StarRating = () => (
@@ -63,10 +63,10 @@ const Testimonials = () => {
   );
 
   return (
-      <div id='Testimonial' className=" w-[80%] relative mx-auto mt-32">
-              <div className=' w-[900px] h-[700px] bg-[#56035db5] blur-[950px] rounded-full'>
+      <div id='Testimonial' className=" md:w-[80%] px-4 relative mx-auto md:mt-32 mt-20">
+              <div className=' md:block hidden w-[900px] h-[200px] bg-[#56035db5] blur-[950px] rounded-full'>
             </div>
-       <div className=' absolute top-0'>
+       <div className=' md:absolute top-0'>
            {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4">Testimonials</h2>

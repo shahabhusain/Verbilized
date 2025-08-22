@@ -12,10 +12,10 @@ const Footer = () => {
   ];
 
   return (
-    <footer className=" bg-[#ffffff0f] mt-32 text-white relative">
-         <div className=' w-[100%]  h-[450px] bg-[#56035d43] blur-2xl rounded-full'>
+    <footer className=" bg-[#ffffff0f] mt-32 text-white md:relative">
+         <div className=' w-[100%] md:block hidden  h-[450px] bg-[#56035d43] blur-2xl rounded-full'>
             </div>
-      <div className="w-[100%] mx-auto px-6 py-12 absolute top-0">
+      <div className="w-[100%] mx-auto px-6 py-12 md:absolute top-0">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-[80%] mx-auto">
           
           {/* Sundus Section */}

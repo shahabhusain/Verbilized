@@ -40,7 +40,7 @@ const Testimonial = () => {
 
   return (
       <div id='Testimonial' className=" w-[80%] relative mx-auto mt-32">
-              <div className=' w-[900px] h-[700px] bg-[#56035db5] blur-[950px] rounded-full'>
+              <div className=' md:w-[900px] md:h-[700px] h-[1500px] bg-[#56035db5] blur-[950px] rounded-full'>
             </div>
        <div className=' absolute top-0'>
            {/* Header */}

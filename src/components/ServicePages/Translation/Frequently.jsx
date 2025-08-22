@@ -51,14 +51,14 @@ const Frequently = () => {
   }
 
   return (
-    <div className='w-[80%] mx-auto flex items-center justify-center flex-col relative mt-32'>
+    <div className='md:w-[80%] px-4 mx-auto flex items-center justify-center flex-col relative md:mt-32 mt-20'>
              <div>
                 <h1 className=' text-[32px] font-[500] text-white text-center'>Frequently Asked Questions</h1>
           <p className=' text-[#969696] text-[14px] font-[500] text-center max-w-[655px] '>Got questions? We’ve answered some of the most common ones to help you understand how we work, what we offer, and how we can support your business.</p>
              </div>
-         <div className=' w-[100%]  h-[600px] bg-[#56035d43] blur-2xl mt-20 rounded-full'>
+         <div className=' md:block hidden w-[100%]  h-[600px] bg-[#56035d43] blur-2xl mt-20 rounded-full'>
             </div>
-        <div className=' absolute top-32  w-full '>
+        <div className=' md:absolute top-32 mt-12 md:mt-0  w-full '>
             {data.map((item, index) => (
         <div
           key={index}
