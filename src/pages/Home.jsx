@@ -6,16 +6,18 @@ import Voice from '../components/Voice'
 import Trusted from '../components/Trusted'
 import Testimonials from '../components/Testimonials'
 import Contact from '../components/Contact'
+import { ScrollRestoration } from 'react-router-dom'
 
 const Home = () => {
   return (
     <div>
+      <ScrollRestoration />
       <Hero />
       <Introduction />
       <Services />
       <Voice />
       <Trusted />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
     </div>
   )

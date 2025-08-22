@@ -4,10 +4,12 @@ import Trusted from '../components/ServicePages/Translation/Trusted'
 import Carts from '../components/ServicePages/Translation/Carts'
 import Translator from '../components/ServicePages/Translation/Translator'
 import Frequently from '../components/ServicePages/Translation/Frequently'
+import { ScrollRestoration } from 'react-router-dom'
 
 const TranslationalServices = () => {
   return (
     <div>
+            <ScrollRestoration />
         <Translation />
         <Trusted />
         <Carts />

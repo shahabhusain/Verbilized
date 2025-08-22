@@ -7,7 +7,7 @@ const Header = () => {
   const [open, setOpen] = useState(0);
   const [openSide, setOpenSide] = useState(false);
 
-  const navData = ["Home", "Introduction", "Services", "Demo", "Clients", "Testimonial"];
+  const navData = ["Home", "Introduction", "Services", "Demo", "Clients", "Contact"];
   const navigate = useNavigate()
 
   return (
@@ -25,6 +25,7 @@ const Header = () => {
                 to={item}
                 smooth={true}
                 duration={500}
+                offset={-90}
                 key={index}
                 onClick={() => setOpen(index)}
                 className={`text-[14px] font-[400] text-white cursor-pointer pb-2 ${

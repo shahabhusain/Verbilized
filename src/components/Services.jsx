@@ -50,12 +50,12 @@ const Services = () => {
   ]
 
   return (
-    <div id='Services' className='flex flex-col md:flex-row justify-between md:mt-32 md:w-[80%] px-4 mt-20 mx-auto'>
+    <div id='Services' className='flex flex-col md:flex-row justify-between md:mt-12 items-center md:w-[80%] px-4 mt-20 mx-auto'>
       {/* Left Section */}
       <div className='md:w-1/2 md:relative'>
         <div className='w-[500px] md:block hidden h-[500px] bg-[#56035d9f] blur-[120px] rounded-full'></div>
 
-        <div className='flex flex-col gap-3 md:absolute top-0'>
+        <div className='flex flex-col gap-3 md:absolute top-32'>
           <h1 className='text-[32px] font-semibold text-white'>Services We Offer</h1>
           <p className='text-[14px] font-[500] text-white'>
             From IT infrastructure and automation to business strategy and digital growth — we provide end-to-end solutions designed to optimize your operations, elevate your brand, and future-proof your business.

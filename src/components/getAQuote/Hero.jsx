@@ -2,7 +2,7 @@ import React from 'react'
 import circle from '../../assets/quote.png'
 const Hero = () => {
   return (
-    <div className='bg-[#030406] py-24'>
+    <div className='bg-[#030406] py-6'>
         <div className=' flex items-center md:w-[80%] px-4 md:px-0 mx-auto justify-between'>
       <div className=' flex flex-col gap-3 md:w-1/2'>
         <h1 className=' md:text-[54px] text-[34px] font-[600] text-white'>Quote</h1>

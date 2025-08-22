@@ -4,7 +4,7 @@ import video1 from '../assets/video2.mp4'
 
 const Voice = () => {
   return (
-    <div className=' relative mt-32 px-4 md:px-0'>
+    <div className=' relative px-4 md:px-0'>
           <div id="Demo" className="md:mt-32 mt-20 sticky top-32">
       <h1 className="text-[32px] font-semibold text-white text-center">
         Hear the Voice
