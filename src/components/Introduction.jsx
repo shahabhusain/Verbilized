@@ -8,7 +8,7 @@ const Introduction = () => {
         <div className='md:w-[40%] md:relative'>
             <div className=' w-full md:block hidden  h-full bg-[#55035D] blur-2xl rounded-full'>
             </div>
-            <img className=' md:absolute top-0' src={intro} alt="" />
+            <img className=' md:absolute md:top-6 top-0' src={intro} alt="" />
         </div>
         <div className=' md:w-1/2 flex flex-col gap-4 md:mt-0 mt-[12px]'>
             <h1 className=' text-[32px] font-[600] text-white'>Let Me Introduce Myself</h1>
