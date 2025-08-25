@@ -71,6 +71,7 @@ const Header = () => {
                   smooth={true}
                   duration={500}
                   key={index}
+                  offset={-90}
                   onClick={() => {
                     setOpen(index);
                     setOpenSide(false); // auto close on click
