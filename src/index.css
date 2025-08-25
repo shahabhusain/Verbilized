@@ -26,3 +26,8 @@ body{
   scrollbar-width: none; 
   -ms-overflow-style: none; 
 }
+
+body{
+  max-width: 1500px;
+  margin: 0 auto;
+}
