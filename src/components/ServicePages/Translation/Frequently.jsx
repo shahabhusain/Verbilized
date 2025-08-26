@@ -6,39 +6,60 @@ const Frequently = () => {
 
   const data = [
     {
-      question: "Why should I choose eTranslation Services over another translation company?",
+      question: "What kind of content can you translate?",
       answer:
-        "eTranslation Services stands out for its commitment to accuracy, fast turnaround times, and a team of certified professional linguists. We provide personalized service tailored to your specific industry needs, ensuring high-quality translations every time.",
+        "From personal documents like birth certificates and transcripts to professional materials such as websites, medical reports, legal contracts, and marketing content—we cover it all. No matter the format, our translators make sure your message comes across clearly and naturally.",
     },
     {
-      question: "Why do interpreters need access to event speeches and presentations before the event?",
+      question: "Which languages do you work with?",
       answer:
-        "Providing interpreters with speeches and presentations in advance allows them to familiarize themselves with the subject matter, terminology, and context. This preparation ensures smoother, more accurate interpretation during the event.",
+                "We provide translations in a wide range of languages, including major world languages as well as less common ones. If you have a specific language in mind, just let us know—we’ll connect you with a translator who specializes in it.",
     },
     {
-      question: "What is the difference between translation and interpreting?",
+      question: " How do you make sure the translation is accurate?",
       answer:
-        "Translation involves converting written text from one language to another, while interpreting deals with spoken language in real-time. Both require different skill sets and techniques, tailored to the specific medium being used.",
+        "Every project is handled by a native-speaking translator who understands both the language and the culture. After translation, it goes through a quality check to make sure terminology, tone, and meaning are consistent and accurate.",
     },
     {
-      question: "How much does professional language translation cost?",
+      question: "Do you only provide translation, or other services too?",
       answer:
-        "The cost of professional translation depends on several factors, including the length and complexity of the text, language pair, subject matter, and turnaround time. We provide customized quotes based on your project requirements.",
+        "Along with translation, we also provide proofreading, editing, and back translation. Proofreading ensures your text is polished and error-free, while back translation is often required in sensitive fields like medical and legal to double-check accuracy against the original.",
     },
     {
-      question: "How do you ensure high-quality translation?",
+      question: "How quickly can I get my translation?",
       answer:
-        "We ensure high-quality translation through a rigorous process that includes using native-speaking translators, subject matter experts, and multiple rounds of proofreading and quality assurance to maintain accuracy and consistency.",
+        "Delivery depends on the size and complexity of your document, but we’ll always give you a clear timeline upfront. If you need something urgently, we also provide rush translation services to meet tight deadlines.",
     },
     {
-      question: "How does eTranslation Services guarantee quality?",
+      question: "Do you only use human translators?",
       answer:
-        "We guarantee quality by working with certified translators, employing a robust quality control process, and utilizing advanced translation tools to maintain accuracy, consistency, and cultural relevance in every project.",
+        "Yes—our translations are done by experienced human translators. While tools can help with speed, they can’t capture cultural nuances or tone. That’s why every translation is carefully crafted and reviewed by professionals.",
     },
     {
-      question: "How soon will the translation be completed?",
+      question: "Can you handle specialized fields like legal or medical?",
       answer:
-        "Turnaround times vary depending on the size and complexity of the project. However, we always strive to meet your deadlines and can provide expedited services if needed. Contact us to discuss your timeline.",
+        "Absolutely. We have subject-matter experts who are familiar with technical terminology in areas like healthcare, law, education, and business. This ensures your translation is not only accurate but also industry-appropriate.",
+    },
+
+      {
+      question: "Will my information stay private?",
+      answer:
+        "Yes. We take confidentiality very seriously. All your documents remain secure, and we can sign a non-disclosure agreement (NDA) if required.",
+    },
+     {
+      question: "How much does it cost to translate my document?",
+      answer:
+        "The cost depends on the word count, language pair, and complexity. We keep our pricing transparent—simply share your document with us, and we’ll give you a free, no-obligation quote.",
+    },
+     {
+      question: "Do you provide certified translations?",
+      answer:
+        "Yes, we offer certified translations for official purposes such as immigration, legal matters, or academic submissions. These come with a signed statement verifying accuracy.",
+    },
+     {
+      question: "How do I get started?",
+      answer:
+        "It’s simple—just send us your document and tell us the target language and deadline. We’ll get back to you quickly with a quote and next steps.",
     },
   ]
 
@@ -56,7 +77,7 @@ const Frequently = () => {
                 <h1 className=' text-[32px] font-[500] text-white text-center'>Frequently Asked Questions</h1>
           <p className=' text-[#969696] text-[14px] font-[500] text-center max-w-[655px] '>Got questions? We’ve answered some of the most common ones to help you understand how we work, what we offer, and how we can support your business.</p>
              </div>
-         <div className=' md:block hidden w-[100%]  h-[600px] bg-[#56035d43] blur-2xl mt-20 rounded-full'>
+         <div className=' md:block hidden w-[100%]  h-[750px] bg-[#56035d43] blur-2xl mt-20 rounded-full'>
             </div>
         <div className=' md:absolute top-32 mt-12 md:mt-0  w-full '>
             {data.map((item, index) => (

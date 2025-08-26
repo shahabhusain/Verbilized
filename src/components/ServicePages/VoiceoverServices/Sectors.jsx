@@ -38,7 +38,7 @@ const Sectors = () => {
           {data.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center gap-3 p-4 bg-[#ffffff0a] rounded-xl hover:scale-105 transition-transform"
+              className="flex flex-col items-center gap-3 p-4 bg-transparent rounded-xl hover:scale-105 transition-transform"
             >
               <img className="w-12 md:w-16" src={item.img} alt={item.title} />
               <h1 className="text-center text-sm md:text-base font-semibold text-white">

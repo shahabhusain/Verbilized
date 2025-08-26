@@ -6,6 +6,9 @@ import Realworld from '../components/ServicePages/VoiceoverServices/Realworld'
 import Frequently from '../components/ServicePages/Translation/Frequently'
 import Testimonial from '../components/ServicePages/VoiceoverServices/Testimonial'
 import { ScrollRestoration } from 'react-router-dom'
+import EveryVoice from '../components/ServicePages/VoiceoverServices/EveryVoice'
+import Include from '../components/ServicePages/VoiceoverServices/Include'
+import Faqs from '../components/ServicePages/VoiceoverServices/Faqs'
 
 const VoiceoverServices = () => {
   return (
@@ -15,7 +18,9 @@ const VoiceoverServices = () => {
         <OneVoice />
         <Sectors />
         <Realworld />
-        <Frequently />
+        <EveryVoice />
+        <Include />
+        <Faqs />
         <Testimonial />
     </div>
   )
