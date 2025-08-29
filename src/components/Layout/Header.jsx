@@ -19,7 +19,7 @@ const Header = () => {
 
         {/* Desktop */}
         <div className="relative hidden z-10 md:flex items-center justify-between w-[80%] mx-auto">
-          <button className="text-[24px] font-bold text-white">Sundus</button>
+          <button className="text-[24px] font-bold text-white">Verbalizers</button>
           <nav className="flex items-center gap-12 text-white">
             {navData.map((item, index) => (
               <Link
