@@ -20,7 +20,7 @@ const Footer = () => {
           
           {/* Sundus Section */}
           <div className="space-y-6">
-            <h2 className="text-2xl font-bold">Sundus</h2>
+            <h2 className="text-2xl font-bold">Verbalizers</h2>
             <p className="text-white leading-relaxed text-sm">
               Whether you're looking for a relatable female voice, a 
               culturally fluent translator, or a professional interpreter 

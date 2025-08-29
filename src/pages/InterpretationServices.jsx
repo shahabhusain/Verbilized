@@ -3,8 +3,8 @@ import LanguagePair from '../components/ServicePages/Interpretation/LanguagePair
 import Expertise from '../components/ServicePages/Interpretation/Experties'
 import Interpretation from '../components/ServicePages/Interpretation/Interpretation'
 import Carts from '../components/ServicePages/Interpretation/Carts'
-import Frequently from '../components/ServicePages/Translation/Frequently'
 import { ScrollRestoration } from 'react-router-dom'
+import Faqs from '../components/ServicePages/Interpretation/Faqs'
 
 const InterpretationServices = () => {
   return (
@@ -12,9 +12,9 @@ const InterpretationServices = () => {
             <ScrollRestoration />
         <LanguagePair />
         <Expertise />
-        <Carts />
+        {/* <Carts /> */}
         <Interpretation />
-        <Frequently />
+        <Faqs />
     </div>
   )
 }

@@ -31,3 +31,18 @@ body{
   max-width: 1550px;
   margin: 0 auto;
 }
+
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    color: white;
+    font-family: swiper-icons;
+    font-size: 24px !important;
+    text-transform: none !important;
+    background-color: rgba(255, 255, 255, 0.49);
+    backdrop-filter: blur(32px) !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    padding: 12px;
+    border-radius: 30%;
+}

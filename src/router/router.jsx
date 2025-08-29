@@ -11,18 +11,18 @@ import TranslationalServices from '../pages/TranslationServices'
 import GetAQuote from '../pages/GetAQuote'
 
 export const router = createBrowserRouter (
-  createRoutesFromElements(
+    createRoutesFromElements(
     <>
     <Route path='/' element={<Layout />}>
       <Route index element={<Home />} />
     </Route>
     <Route path='/services' element={<Layouts />}>
         <Route index element={<TranslationalServices />} />
-    <Route path='/services/interpretation' element={<InterpretationServices />} />
-    <Route path='/services/language' element={<LanguagePairs />} />
-    <Route path='/services/voiceover' element={<VoiceoverServices />} />
-    <Route path='/services/localize' element={<LocalizationServices />} />
-     <Route path='/services/getaquote' element={<GetAQuote />} />
+        <Route path='/services/interpretation' element={<InterpretationServices />} />
+        <Route path='/services/language' element={<LanguagePairs />} />
+        <Route path='/services/voiceover' element={<VoiceoverServices />} />
+        <Route path='/services/localize' element={<LocalizationServices />} />
+        <Route path='/services/getaquote' element={<GetAQuote />} />
     </Route>
     </>
   )

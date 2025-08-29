@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='bg-[#030406] py-6'>
         <div className=' flex items-center w-[80%] mx-auto justify-between'>
       <div className=' flex flex-col gap-3 md:w-1/2'>
-        <h1 className=' md:text-[54px] text-[34px] font-[600] text-white'>Your Message. Our Voice. Heard Everywhere.</h1>
+        <h1 className=' md:text-[44px] text-[34px] font-[600] text-white'>Your Message. Our Voice. Heard Everywhere.</h1>
         <p className=' text-[14px] font-[500] text-white'>Professional voiceover services by Verbalizers — studio-quality voices in every language and accent. Fast delivery, global talent, and full licensing included.</p>
         <Link to="/services/getaquote"  className=' mt-5 text-white font-medium border-[1px] border-[#fff] rounded-full py-2 px-5 w-fit'>Get a Quote</Link>
       </div>

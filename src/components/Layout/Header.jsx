@@ -2,12 +2,13 @@ import { MenuIcon, X } from 'lucide-react';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-scroll';
-
+import ServicesButton from './ServicesButton';
 const Header = () => {
   const [open, setOpen] = useState(0);
   const [openSide, setOpenSide] = useState(false);
+  const [openDropDown, setOpenDropDown] = useState(false)
 
-  const navData = ["Home", "Introduction", "Services", "Demo", "Clients", "Contact"];
+  const navData = ["Home", "Introduction", "Demo", "Clients", "Contact"];
   const navigate = useNavigate()
 
   return (
@@ -35,6 +36,7 @@ const Header = () => {
                 {item}
               </Link>
             ))}
+            <ServicesButton openDropDown={openDropDown} setOpenDropDown={setOpenDropDown} />
           </nav>
           <button
             onClick={()=>navigate("/services/getaquote")}

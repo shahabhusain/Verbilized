@@ -19,13 +19,13 @@ const Services = () => {
       title: 'Translation Services',
       description: 'Clear, fluent, and culturally appropriate translations. I provide expert translations for:\n- Medical and health content\n- NGO and community projects\n- Subtitles and scripts\n- Educational material\n- General business communication'
     },
-    // {
-    //   label: 'Interpretation Services',
-    //   path: '/services/interpretation',
-    //   image: interpretationImg,
-    //   title: 'Interpretation Services',
-    //   description: 'Connecting people, one conversation at a time. With over two years of real-world experience, I offer:\n- Consecutive interpretation (remote)\n- Over-the-phone (OPI) & Video Remote (VRI)\n- Specialized in medical, insurance & education sectors\nHIPAA certified | Medical interpreter trained'
-    // },
+    {
+      label: 'Interpretation Services',
+      path: '/services/interpretation',
+      image: interpretationImg,
+      title: 'Interpretation Services',
+      description: 'Connecting people, one conversation at a time. With over two years of real-world experience, I offer:\n- Consecutive interpretation (remote)\n- Over-the-phone (OPI) & Video Remote (VRI)\n- Specialized in medical, insurance & education sectors\nHIPAA certified | Medical interpreter trained'
+    },
     // {
     //   label: 'Language Pairs ',
     //   path: '/services/language',
@@ -55,7 +55,7 @@ const Services = () => {
       <div className='md:w-1/2 md:relative'>
         <div className='w-[500px] md:block hidden h-[500px] bg-[#56035d9f] blur-[120px] rounded-full'></div>
 
-        <div className='flex flex-col gap-3 md:absolute top-32'>
+        <div className='flex flex-col gap-3 md:absolute top-20'>
           <h1 className='text-[32px] font-semibold text-white'>Services We Offer</h1>
           <p className='text-[14px] font-[500] text-white'>
             From IT infrastructure and automation to business strategy and digital growth — we provide end-to-end solutions designed to optimize your operations, elevate your brand, and future-proof your business.

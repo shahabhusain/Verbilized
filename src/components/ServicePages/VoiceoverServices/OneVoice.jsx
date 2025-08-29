@@ -5,6 +5,9 @@ import img3 from '../../../assets/cart3.png';
 import img4 from '../../../assets/cart4.png';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const OneVoice = () => {
   const data = [
@@ -48,6 +51,8 @@ const OneVoice = () => {
           <Swiper
             slidesPerView={1.2}
             spaceBetween={20}
+               navigation={true}
+            modules={[Pagination, Navigation]}
             breakpoints={{
               640: { slidesPerView: 1.2 },
               768: { slidesPerView: 2 },

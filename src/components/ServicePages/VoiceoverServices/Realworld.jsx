@@ -5,6 +5,7 @@ import img3 from '../../../assets/cart7.png';
 import img4 from '../../../assets/cart8.png';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Navigation, Pagination } from 'swiper/modules';
 
 const Realworld = () => {
   const data = [
@@ -48,6 +49,8 @@ const Realworld = () => {
           <Swiper
             slidesPerView={1.2}
             spaceBetween={20}
+            navigation={true}
+            modules={[Pagination,Navigation]}
             breakpoints={{
               640: { slidesPerView: 1.2 },
               768: { slidesPerView: 2 },
