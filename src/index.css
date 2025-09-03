@@ -33,7 +33,7 @@ body{
 }
 
 
-.swiper-button-prev:after, .swiper-button-next:after {
+/* .swiper-button-prev:after, .swiper-button-next:after {
     color: white;
     font-family: swiper-icons;
     font-size: 24px !important;
@@ -45,4 +45,13 @@ body{
     line-height: 1;
     padding: 12px;
     border-radius: 30%;
+} */
+
+.mySwiper .swiper-slide {
+  transition: transform 0.4s ease-in-out;
+}
+
+.mySwiper .swiper-slide-active {
+  transform: scale(1.1); /* Scale up active slide */
+  z-index: 10;
 }

@@ -1,14 +1,14 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
   const navigationLinks = [
     'Home',
     'Introduction', 
-    'Services',
     'Demo',
     'Clients',
-    'Testimonial'
+    'Contact'
   ];
 
   return (
@@ -22,11 +22,8 @@ const Footer = () => {
           <div className="space-y-6">
             <h2 className="text-2xl font-bold">Verbalizers</h2>
             <p className="text-white leading-relaxed text-sm">
-              Whether you're looking for a relatable female voice, a 
-              culturally fluent translator, or a professional interpreter 
-              you're in the right place. I'm here to help you connect with 
-              your audience in Pashto, Urdu, and English with clarity and 
-              care.
+      At Verbalizers, we believe language should never stand in the way of connection. Every story deserves to be heard the way it was meant to be told.
+We help your words travel across languages and cultures, so no meaning is lost and every voice finds connection.
             </p>
             
             {/* Social Media Icons */}
@@ -49,12 +46,16 @@ const Footer = () => {
             <ul className="space-y-3">
               {navigationLinks.map((link, index) => (
                 <li key={index}>
-                  <a 
-                    href="#" 
-                    className="text-white transition-colors text-sm"
+                  <Link 
+                         to={link}
+                smooth={true}
+                duration={500}
+                offset={-90}
+                key={index}
+                    className="text-white cursor-pointer transition-colors text-sm"
                   >
                     {link}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

@@ -7,7 +7,7 @@ const Translation = () => {
         <div className=' flex items-center md:w-[80%] px-4 mx-auto justify-between'>
       <div className=' flex flex-col gap-3 md:w-1/2'>
         <h1 className=' text-[54px] font-[600] text-white'>Translation Services</h1>
-        <p className=' text-[14px] font-[500] text-white'>Professional human translation services for websites, documents, and digital content — in 30+ languages.</p>
+        <p className=' text-[14px] font-[500] text-white'>We provide accurate and culturally nuanced translations in over 100 languages, ensuring your message is clearly understood across borders. From documents to digital content, we help you reach the right audience anywhere in the world.</p>
         <Link to="/services/getaquote"  className=' mt-5 text-white font-medium border-[1px] border-[#fff] rounded-full py-2 px-5 w-fit'>Get a Quote</Link>
       </div>
       <div className=' w-[40%] md:relative'>

@@ -13,18 +13,18 @@ const Services = () => {
 
   const data = [
     {
-      label: 'Translation Services',
+      label: 'Translation',
       path: '/services',
       image: translationImg,
       title: 'Translation Services',
-      description: 'Clear, fluent, and culturally appropriate translations. I provide expert translations for:\n- Medical and health content\n- NGO and community projects\n- Subtitles and scripts\n- Educational material\n- General business communication'
+      description: 'Clear, fluent, and culturally appropriate translations. We provide expert translations for:\n- Medical and health content\n- NGO and community projects\n- Subtitles and scripts\n- Educational material\n- General business communication'
     },
     {
-      label: 'Interpretation Services',
+      label: 'Interpretation',
       path: '/services/interpretation',
       image: interpretationImg,
       title: 'Interpretation Services',
-      description: 'Connecting people, one conversation at a time. With over two years of real-world experience, I offer:\n- Consecutive interpretation (remote)\n- Over-the-phone (OPI) & Video Remote (VRI)\n- Specialized in medical, insurance & education sectors\nHIPAA certified | Medical interpreter trained'
+      description: 'Connecting people, one conversation at a time. With over two years of real-world experience, We offer:\n- Consecutive interpretation (remote)\n- Over-the-phone (OPI) & Video Remote (VRI)\n- Specialized in medical, insurance & education sectors\n- HIPAA certified | Medical interpreter trained'
     },
     // {
     //   label: 'Language Pairs ',
@@ -34,23 +34,23 @@ const Services = () => {
     //   description: 'Specialized support for multilingual translation combinations tailored to industry needs.\n- English ⇄ Pashto\n- English ⇄ Urdu\nStyle: Meaning-focused, natural, and\naudience-friendly\nConfidentiality guaranteed',
     // },
     {
-      label: 'Voiceover Services',
+      label: 'Voiceover',
       path: '/services/voiceover',
       image: voiceoverImg,
       title: 'Voiceover Services',
-      description: 'Your message, delivered with clarity and warmth. Female voiceovers for:\n- Audiobooks\n- Children’s content\n- E-learning\n- Dubbing\n- IVR systems',
+      description: 'Your message, delivered with clarity and warmth.We specialize in professional female voiceovers for:\n- Audiobooks\n- Children’s content\n- E-learning & explainer videos\n- Dubbing & YouTube content\n- IVR systems & announcements',
     },
     {
-      label: 'Localization Services',
+      label: 'Localization',
       path: '/services/localize',
       image: languagePairsImg,
-      title: 'Localization Services',
-      description: 'Adapt your content for global audiences – culturally relevant, linguistically accurate, and brand-consistent.',
+      title: 'Localization',
+      description: 'Adapt your content for global audiences\n- culturally relevant \n- linguistically accurate \n- brand-consistent.',
     },
   ]
 
   return (
-    <div id='Services' className='flex flex-col md:flex-row justify-between md:mt-12 items-center md:w-[80%] px-4 mt-20 mx-auto'>
+    <div id='Services' className='flex flex-col md:flex-row justify-between md:mt-32 items-center md:w-[80%] px-4 mt-20 mx-auto'>
       {/* Left Section */}
       <div className='md:w-1/2 md:relative'>
         <div className='w-[500px] md:block hidden h-[500px] bg-[#56035d9f] blur-[120px] rounded-full'></div>
@@ -58,7 +58,7 @@ const Services = () => {
         <div className='flex flex-col gap-3 md:absolute top-20'>
           <h1 className='text-[32px] font-semibold text-white'>Services We Offer</h1>
           <p className='text-[14px] font-[500] text-white'>
-            From IT infrastructure and automation to business strategy and digital growth — we provide end-to-end solutions designed to optimize your operations, elevate your brand, and future-proof your business.
+            From IT infrastructure and automation to business strategy, Accurate, Reliable, Human and digital growth — we provide end-to-end solutions designed to optimize your operations, elevate your brand, and future-proof your business.
           </p>
 
           <ul className='flex flex-col gap-4 mt-4'>

@@ -16,7 +16,7 @@ const VoiceoverServices = () => {
             <ScrollRestoration />
         <Hero />
         <OneVoice />
-        <Sectors />
+        {/* <Sectors /> */}
         <Realworld />
         <EveryVoice />
         <Include />
